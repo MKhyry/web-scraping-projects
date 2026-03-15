@@ -1,0 +1,61 @@
+# ──────────────────────────────────────────────────────
+# .gitignore — Job Market Analysis
+# ──────────────────────────────────────────────────────
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env
+*.env
+
+# ── Jupyter Notebook checkpoints ─────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── OS-generated files ────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── IDEs & editors ────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs ─────────────────────────────────────────────
+*.log
+logs/
+
+# ── Distribution / packaging ─────────────────────────
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ── Pytest / testing ─────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Secrets & credentials (NEVER commit these) ────────
+*.key
+*.pem
+secrets.json
+config.ini
+
+# NOTE: data.csv is intentionally NOT ignored.
+# It is committed as example output for portfolio viewers.
